@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Values version="2.0" exxIsVersion="%value exxIsVersion/exxIsVersion%">
+ <getPackages>%loop packages/packages%
+  <package name="%value pkg_name%" />%end% %nl%
+ </getPackages>
+</Values>
+

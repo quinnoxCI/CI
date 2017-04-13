@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Values version="2.0" exxIsVersion="1">
+ <value name="nodeName">%value nodeName%</value>
+ <value name="connectionType">%value connectionType%</value>
+ <value name="childType">%value childType%</value>
+ <referencedNodes>%loop nodeNames%
+  <node name="%value nodeNames%" />%end% %nl%
+ </referencedNodes>
+</Values>
+

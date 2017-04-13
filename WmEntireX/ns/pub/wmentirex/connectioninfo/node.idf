@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_nsName">pub.wmentirex.connectioninfo</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">DQpwcml2YXRlIHN0YXRpYyBJRGF0YUN1cnNvciBjb25uZWN0aW9uRGF0YSA9IG51bGw7DQpwcml2
+YXRlIHN0YXRpYyBsb25nIGNvbm5lY3Rpb25UaW1lID0gMDsNCg0KcHJpdmF0ZSBzdGF0aWMgdm9p
+ZCByZXRyaWV2ZUNvbm5lY3Rpb25EYXRhKFN0cmluZyByZWZyZXNoRGF0YSkgdGhyb3dzIFNlcnZp
+Y2VFeGNlcHRpb24gew0KCQ0KCWxvbmcgcmVmcmVzaCA9IDEwMDAwOw0KCWlmIChyZWZyZXNoRGF0
+YSAhPSBudWxsKSB7DQoJCXRyeSB7DQoJCQlyZWZyZXNoID0gTG9uZy5wYXJzZUxvbmcocmVmcmVz
+aERhdGEudHJpbSgpKTsNCgkJfQ0KCQljYXRjaCAoRXhjZXB0aW9uIGUpIHsNCgkJCS8vIGlnbm9y
+ZQ0KCQl9DQoJfQ0KCWlmIChjb25uZWN0aW9uRGF0YSA9PSBudWxsIHx8IFN5c3RlbS5jdXJyZW50
+VGltZU1pbGxpcygpID4gY29ubmVjdGlvblRpbWUgKyByZWZyZXNoKSB7DQoJCXRyeXsNCgkJCUlE
+YXRhIG91dHB1dCA9IFNlcnZpY2UuZG9JbnZva2UoImNvbS5zb2Z0d2FyZWFnLmVudGlyZXgud21h
+ZGFwdGVyLkFkbWluIiwgImdldENvbm5lY3Rpb25TdGF0aXN0aWNzIiwgSURhdGFGYWN0b3J5LmNy
+ZWF0ZSgpKTsNCgkJCWNvbm5lY3Rpb25EYXRhID0gb3V0cHV0LmdldEN1cnNvcigpOw0KCQkJY29u
+bmVjdGlvblRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsNCgkJfQ0KCQljYXRjaChF
+eGNlcHRpb24gZSl7DQoJCQl0aHJvdyBuZXcgU2VydmljZUV4Y2VwdGlvbihlKTsNCgkJfQ0KCX0N
+Cg0KfQ==</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+  </array>
+</Values>

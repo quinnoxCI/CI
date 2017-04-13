@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Values version="2.0" exxIsVersion="2">
+ <listConnections>%loop listConnections/listConnections%
+  <connection name="%value connectionAlias%" package="%value packageName%" type="%value connectionType%" state="%value connectionState%"/>%end% %nl%
+ </listConnections>
+</Values>
+

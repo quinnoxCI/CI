@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Values version="2.0" exxIsVersion="%value exxIsVersion%">
+  <value name="ok">%value ok%</value>
+  <value name="errName">%value errName%</value>
+  <value name="reason">%value reason%</value>
+</Values>

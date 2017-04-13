@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Values version="2.0" exxIsVersion="%value exxIsVersion/exxIsVersion%">
+ <getConnectionTypes>%loop connections%
+  <connectionType name="%value connections%" displayName ="%value connectionDisplayNames%" settings="%value settings%" isListener="%value listenerAttribute%" isReliable="%value reliableAttribute%" isLicensed="%value lisenseAttribute%" needsSVM="%value needsSVMAttribute%"/>%end% %nl%
+ </getConnectionTypes>
+</Values>
+

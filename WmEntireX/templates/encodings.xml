@@ -1,0 +1,2 @@
+%loop encodings%
+<ComboElement>%value encodings%</ComboElement>%end% %nl%

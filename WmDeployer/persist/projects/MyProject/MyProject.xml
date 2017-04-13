@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_101" class="java.beans.XMLDecoder">
+ <object class="com.wm.deployer.project.Project" id="Project0">
+  <void property="bundles">
+   <void method="add">
+    <object class="com.wm.deployer.project.Bundle" id="Bundle0">
+     <void property="allowedSourceServers">
+      <void method="add">
+       <string>GitRepo</string>
+      </void>
+     </void>
+     <void property="description">
+      <string></string>
+     </void>
+     <void property="fetchBy">
+      <null/>
+     </void>
+     <void property="name">
+      <string>myDeploymentSet</string>
+     </void>
+     <void property="project">
+      <object idref="Project0"/>
+     </void>
+     <void property="sourceOfTruth">
+      <string>FlatFile</string>
+     </void>
+     <void property="type">
+      <string>Repository</string>
+     </void>
+     <void property="version">
+      <string>4.0</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="concurrentDeployment">
+   <boolean>true</boolean>
+  </void>
+  <void property="deployACLMap">
+   <boolean>false</boolean>
+  </void>
+  <void property="deployTNRules">
+   <string>MERGE</string>
+  </void>
+  <void property="description">
+   <string></string>
+  </void>
+  <void property="enforceAtDeployment">
+   <boolean>false</boolean>
+  </void>
+  <void property="homePage">
+   <object class="com.wm.deployer.project.HomePage">
+    <void property="projectName">
+     <string>MyProject</string>
+    </void>
+    <void property="version">
+     <string>4.0</string>
+    </void>
+   </object>
+  </void>
+  <void property="ignoreMissingDependencies">
+   <boolean>true</boolean>
+  </void>
+  <void property="name">
+   <string>MyProject</string>
+  </void>
+  <void property="projectType">
+   <string>Repository</string>
+  </void>
+  <void property="stopPorts">
+   <boolean>false</boolean>
+  </void>
+  <void property="stopSelectedTriggers">
+   <boolean>true</boolean>
+  </void>
+  <void property="stopServices">
+   <boolean>false</boolean>
+  </void>
+  <void property="version">
+   <string>4.0</string>
+  </void>
+ </object>
+</java>

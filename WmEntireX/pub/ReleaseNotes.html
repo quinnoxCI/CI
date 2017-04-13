@@ -1,0 +1,53 @@
+<DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML>
+<HEAD>
+<TITLE>webMethods EntireX Adapter Version 9.12.0.0</TITLE>
+<META HTTP-EQUIV="ContentType" CONTENT="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="ContentType" CONTENT="text/html; charset=UTF-8">
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.GramE
+	{}
+-->
+</style>
+</HEAD>
+<BODY vLink=#666666 link=#003399 bgColor=#ffffff STYLE="FONT-FAMILY:Arial">
+<CENTER><H1><span class="GramE">
+<span style="COLOR: #3366cc; FONT-FAMILY: Arial">webMethods</span></span><span style="COLOR: #3366cc; FONT-FAMILY: Arial"> 
+EntireX Adapter</span></H1></CENTER>
+<CENTER><H2><FONT COLOR="#3366CC">Release Notes</FONT></H2></CENTER>
+<hr>
+<CENTER><H3><span class="GramE"><span style="FONT-FAMILY: Arial">webMethods</span></span><span style="FONT-FAMILY: Arial"> 
+EntireX Adapter Version 9.12.0.0</span></H3></CENTER>
+
+<p>The webMethods EntireX Adapter enables the webMethods Integration Server to consume (IS outbound) as well as provide (IS inbound) EntireX RPC services.</p>
+<p>EntireX supports bidirectional integration with Natural, COBOL, PL/I, C and other applications on z/OS, z/VSE, BS2000 and other platforms. </p>
+
+<p>Moreover, EntireX supports unidirectional integration with webMethods ApplinX, IBM IMS Connect, and IBM CICS&reg; ECI.</p>
+<p>For a complete overview of supported connectivity, see the webMethods EntireX documentation at <a href="http://documentation.softwareag.com/webmethods/entirex_adapter/xai_vers.htm">http://documentation.softwareag.com</a>.</p>
+
+<h3>Connectivity to EntireX RPC Servers</h3>
+<p>The EntireX Adapter allows you to create connections based on the interface definitions of mainframe programs. The connected application programs are exposed to the Integration Server through EntireX RPC technology and RPC servers. </p>
+<h3>Calling a Mainframe Program in a Flow (IS Outbound)
+</h3>
+<p>With the EntireX Adapter a flow is enabled to call a mainframe program using an adapter service and an adapter connection. The connection is configured to route the RPC calls to an EntireX RPC server, also for Reliable RPC. In this scenario, the EntireX Adapter acts as an RPC client. </p>
+<p>In addition, mainframe programs running under IBM IMS can be called using IMS Connect. Mainframe program under IBM CICS can be called using CICS ECI.</p>
+<h3>Calling a Flow from a Mainframe Program (IS Inbound)
+</h3>
+<p>For the opposite direction, that is, calling an IS flow, the EntireX Adapter acts as an RPC server. This exposes services of the Integration Server by means of RPC to mainframe programs. These mainframe programs act as RPC clients and call the services. The RPC clients can also use Reliable RPC. Within webMethods Integration Server, listeners and adapter notifications are used to subsequently call desired target services.</p>
+<h3>Using Eclipse to Create Connections at Design Time
+</h3>
+<p>With the EntireX Workbench, you can generate all technical assets necessary to call a service, for example you can extract the interface definition of the program to call. Use this interface definition to create an adapter connection and the corresponding adapter services. </p>
+<p>Also, interface definitions can be extracted from Integration Server packages. With these definitions, you can generate all Integration Server nodes, including connections and listeners.</p>
+<p>The EntireX Workbench and the EntireX Adapter add-on are both Eclipse-based. </p>
+<HR>
+
+<p>This document applies to webMethods EntireX Adapter Version 9.12.0.0 and to all
+subsequent releases.</p>
+<p>Specifications contained herein are subject to change and these changes will be reported in subsequent
+release notes or new editions.</p>
+</BODY>
+</HTML>

@@ -1,0 +1,12 @@
+<Values version="2.0" exxIsVersion="1">
+  <infos>
+    %loop infos%
+    <info>%value infos%</info>
+   %end%
+  </infos>
+  <warnings>
+  </warnings>
+  <errors>
+    <error><![CDATA[%value $error encode(none)%]]></error>
+  </errors>
+</Values>
