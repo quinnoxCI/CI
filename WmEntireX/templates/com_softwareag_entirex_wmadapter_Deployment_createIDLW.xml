@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Values version="2.0" exxIsVersion="1">
+  <value name="idlFile"><![CDATA[ %value result encode(none)% ]]>
+</value>
+ <errors>
+    <error>%value exxError%</error>
+    <error>%value $error%</error>
+  </errors>
+</Values>
+

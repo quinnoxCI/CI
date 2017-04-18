@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">yes</value>
+  <value name="version">9.12.0.0.332</value>
+  <value name="build">332</value>
+  <value name="time">30 Aug 2016 10:36:41</value>
+  <value name="jvm_version">1.8</value>
+  <value name="publisher">Software AG</value>
+  <value name="description">EntireX Adapter</value>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="com.softwareag.entirex.wmadapter.Admin:startUp"/>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <null name="com.softwareag.entirex.wmadapter.Admin:shutDown"/>
+  </record>
+  <null name="replication_services"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmART">*.*</value>
+  </record>
+  <null name="listACL"/>
+  <value name="classloader">package</value>
+</Values>
